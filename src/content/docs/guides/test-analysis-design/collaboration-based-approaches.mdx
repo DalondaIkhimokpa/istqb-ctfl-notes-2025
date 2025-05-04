@@ -1,0 +1,110 @@
+---
+title: Collaboration-based Test Approaches
+---
+
+import FAQList from "../../../../components/faq-list.astro";
+import FAQ from "../../../../components/faq.astro";
+
+Emphasize cooperation, communication, and teamwork.
+
+Testers work closely with developers, BAs, PMs, and stakeholders, as collaboration ensures better quality software.
+
+## Collaborative User Story Writing
+
+Involves testers in the process of creating and refining user stories.
+
+The three C's of user stories:
+- Card
+- Conversation
+- Confirmation
+
+## User story expansion
+
+Example story: As a user, I want to upload files so I can manage my documents online.
+
+This is a terrible story, but for the sake of this example, these are just some of the questions you'd need to ask:
+
+- What users? Who is this for?
+- Who should and shouldn't be able to see these documents?
+- How and where will they store files?
+- What type of files can be uploaded?
+- What is the supported volume of files?
+- What is the allowed size of files?
+- Once uploaded, how will documents be managed?
+- Will the file contents and metadata be searchable?
+- Can a file be amended or edited?
+- Can it be shared?
+
+Yes, a good developer will ask similar questions, but the point, is that by working collaboratively during the story writing process, testers can suggest things the PM, BA, or developer may have missed.
+
+This collaborative approach is great as it leverages the combined experience and creativity of the entire group—-not just relying on one person to think of everything.
+
+## INVEST
+
+An accepted set of criteria in checklist form to asses the quality of a user story.
+
+![](/src/assets/images/invest.png)
+
+- **Independent**  
+Standalone with no dependencies.
+- **Negotiable**  
+It can be changed at anytime.
+- **Valuable**  
+Having real value for the end user.
+- **Estimable**  
+Team is able to confidently estimate its size.
+- **Small**
+Small enough to be developed, tested, and deployed by the end of the cycle.
+- **Testable**
+Test cases can clearly be defined from the acceptance criteria and definition of done.
+
+## Acceptance criteria
+
+Conditions that a must be fulfilled for a story to be considered acceptable by stakeholders.
+
+Acceptance criteria are the basis from which tests are created to objectively verify that the story meets its requirements.
+
+Components:
+- **Conditions of satisfaction**: What stakeholders need to see to approve
+- **Positive and negative scenarios**: Not just the happy path
+- **Boundaries and constraints**: Limitations or constraints of the implementation, e.g. performance, regulatory, business rules.
+
+Acceptance criteria is crucial because:
+- It defines the scope
+- Helps reach consensus with stakeholders and developers that what's required is clear and documented
+- Describes scenarios: how it will behave under normal and abnormal conditions, e.g. incorrect input, unexpected user behavior, third-party system unresponsive.
+
+Best ways to wite acceptance criteria:
+- **Plain language**: The use can login with a username and password
+- **Scenario-based**: User places an order with items in the cart. When the user hits place order, payment will be charged and order quantities will be updated
+- **Given-when-then**: Given the user is on the home page, when they click 'add to cart` button, the product is added to their cart.
+- **Business rules**: The discount would be applied automatically once three qualifying products are added to the cart.
+
+Key characteristics:
+- Measurable and specific
+- Testable and verifiable
+- Based on user requirements
+- Clear and concise
+- Independent and atomic with each acceptance criteria able to be evaluated separately
+- Prioritized and relevant: Confirm with stakeholders the priority of features needed.
+- Align with business goals
+
+## Acceptance Test-Driven Development
+
+- Agile development approach that emphasizes collaboration with developers, testers, and stakeholders
+- Extends TDD by incorporating the perspectives of business stakeholders, domain, and industry experts
+- Written in business-friendly language that stakeholders can understand
+- Collaborative process designed get rapid feedback from stakeholders and get developers and testers on the same page.
+
+How to write ATDD:
+- Collaborative Requirements Gathering
+- Formulating Acceptance Criteria
+- Acceptance Test Creation
+- Automate Acceptance Tests
+- Test Execution and Validation
+- Continuous Collaboration and Feedback
+- Continuous Improvement
+
+ATDD is a customer-centric approach to development where requirements are validated through executable tests, leading to a higher degree of confidence in the software's quality and functionality.
+
+![](/src/assets/images/atdd.png)

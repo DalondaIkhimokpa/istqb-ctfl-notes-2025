@@ -1,0 +1,34 @@
+---
+title: Equivalence Partitioning
+---
+
+Reduces the number of test cases required while still providing adequate coverage of the system under test.
+
+Divide the input data into different partitions or classes, you can then assume that another input within that same partition will work correctly.
+
+Characterisitics:
+- Input/output put into groups expected to exhibit the same behaciour.
+- Example: Exam grading. No point testing 30 and 29 as they're both a D.
+
+Principle:
+- You only need one test value from each partition to prove the rule
+
+> **EXAM**  
+> One test per partition (valid and invalid), question will be, how many tests needed if there are X partitions? May specify valid and invalid.
+
+This example has six partitions (two invalid, four valid) so would require six tests.
+
+![](/src/assets/images/equiv-partition.png)
+
+An example of a less obvious invalid partion could be a non-integer input.
+
+Following are the steps to apply:
+
+1. Identify the input variables or conditions  
+2. Define the input partitions
+3. Select tese cases
+4. Execute the test cases
+5. Repeat for other partitions
+
+> **EXAM**  
+> Exercise 1 and 2
