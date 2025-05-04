@@ -1,6 +1,6 @@
 # ISTQB CTFL 4.0 Course Notes
 
-My notes from going through a instructor led istqb foundation level course in 2024.
+My notes from going through a instructor led istqb ctfl course in 2024.
 
 View rendered site at
 
