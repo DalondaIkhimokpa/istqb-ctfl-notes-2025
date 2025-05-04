@@ -4,7 +4,7 @@ import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 
 export default defineConfig({
-  site: ["https://dikhimokpa-istqb-ctfl-notes-2025-ecvyuzu9i.vercel.app"],
+  site: site: "https://dikhimokpa-istqb-ctfl-notes-2025-ecvyuzu9i.vercel.app",
   base: "istqb-ctfl-notes-2025",
   integrations: [
     starlight({
