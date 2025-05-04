@@ -4,13 +4,13 @@ import tailwind from "@astrojs/tailwind";
 import mdx from "@astrojs/mdx";
 
 export default defineConfig({
-  site: "https://ryan-blunden.github.io/istqb-foundations-4.0-notes/",
-  base: "istqb-foundations-4.0-notes",
+  site: ["https://dikhimokpa-istqb-ctfl-notes-2025-ecvyuzu9i.vercel.app"],
+  base: "istqb-ctfl-notes-2025",
   integrations: [
     starlight({
-      title: "ISTQB Foundation Level 4.0 Course Notes",
+      title: "ISTQB CTFL 4.0 Course Notes",
       social: {
-        github: "https://github.com/ryan-blunden/istqb-foundations-4.0-notes/",
+        github: "https://github.com/DalondaIkhimokpa/istqb-ctfl-notes-2025/",
       },
       sidebar: [
         {
