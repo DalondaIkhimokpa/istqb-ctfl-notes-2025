@@ -1,8 +1,8 @@
 # ISTQB Foundation Level 4.0 Course Notes
 
-My notes from going through a three-day instructor led course in 2024.
+My notes from going through a instructor led istqb foundation level course in 2024.
 
-View rendered site at [https://ryan-blunden.github.io/istqb-foundations-4.0-notes/](https://ryan-blunden.github.io/istqb-foundations-4.0-notes/)
+View rendered site at
 
 To launch the site:
 
