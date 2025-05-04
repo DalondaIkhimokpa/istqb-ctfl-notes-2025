@@ -1,14 +1,12 @@
 iimport { defineConfig } from 'astro/config';
 import starlight from '@astro/starlight';
 import mdx from '@astrojs/mdx';
-import tailwind from "@astrojs/tailwind";
-import github from "@astrojs/github";
+import { defineConfig } from 'astro/config';
+import starlight from '@astrojs/starlight';
 
 export default defineConfig({
-  site: 'https://dalondaikhimokpa.github.io/istqb-ctfl-notes-2025',
-  base: '/istqb-ctfl-notes-2025/',
-  adapter: github(),
-  integrations: [
+  base: '/istqb-ctfl-notes-2025/', // <-- This is required for GitHub Pages
+  integrations: [starlight()],
     starlight({
       title: "STQB CTFL 4.0 Course Notes",
       social: {
