@@ -2,8 +2,7 @@
 
 My notes from going through a instructor led istqb ctfl course in 2024.
 
-View rendered site at
-
+View rendered site at "https://dikhimokpa-istqb-ctfl-notes-2025.vercel.app/",
 To launch the site:
 
 ```sh
