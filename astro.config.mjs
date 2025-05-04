@@ -1,16 +1,18 @@
-import { defineConfig } from "astro/config";
-import starlight from "@astrojs/starlight";
+iimport { defineConfig } from 'astro/config';
+import starlight from '@astro/starlight';
+import mdx from '@astrojs/mdx';
 import tailwind from "@astrojs/tailwind";
-import mdx from "@astrojs/mdx";
+import github from "@astrojs/github";
 
 export default defineConfig({
-  site: "https://ryan-blunden.github.io/istqb-foundations-4.0-notes/",
-  base: "istqb-foundations-4.0-notes",
+  site: 'https://dalondaikhimokpa.github.io/istqb-ctfl-notes-2025',
+  base: '/istqb-ctfl-notes-2025/',
+  adapter: github(),
   integrations: [
     starlight({
-      title: "ISTQB Foundation Level 4.0 Course Notes",
+      title: "STQB CTFL 4.0 Course Notes",
       social: {
-        github: "https://github.com/ryan-blunden/istqb-foundations-4.0-notes/",
+        github: "https://github.com/DalondaIkhimokpa/istqb-ctfl-notes-2025",
       },
       sidebar: [
         {
@@ -493,6 +495,7 @@ export default defineConfig({
         },
       ],
       customCss: ["./src/styles/tailwind.css", "./src/styles/custom.css"],
+    },
     }),
     tailwind(),
     mdx(),
