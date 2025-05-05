@@ -2,7 +2,7 @@
 
 My notes from going through a instructor led istqb ctfl course in 2024.
 
-View rendered site at 
+View rendered site at: https://dalondaikhimokpa.github.io/istqb-ctfl-notes-2025/
 To launch the site:
 
 ```sh
@@ -32,3 +32,14 @@ All commands are run from the root of the project, from a terminal:
 | `npm run preview`         | Preview your build locally, before deploying     |
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
+
+📘 Astro ISTQB Project Markdown & Summary:
+✅ How to work with an Astro site (content collections, Markdown/MDX)
+✅ Frontmatter basics (title:, etc.)
+✅ Fixing schema errors related to Markdown structure
+✅ Folder structure in src/content/docs/...
+✅ Editing Markdown content and replacing broken files
+✅ Using VS Code to open, edit, and manage files
+✅ Using Git to track, commit, and push changes to GitHub
+✅ Solving real-world Git errors (pull/push conflicts, staging issues)
+✅ Cleaning up project structure for deployment
