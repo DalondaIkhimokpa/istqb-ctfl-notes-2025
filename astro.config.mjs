@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/istqb-ctfl-notes-2025/', // 
   integrations: [
     starlight({
-      title: "STQB CTFL 4.0 Course Notes",
+      title: "ISTQB CTFL 4.0 Course Notes",
       social: {
         github: "https://github.com/DalondaIkhimokpa/istqb-ctfl-notes-2025",
       },
